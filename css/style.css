@@ -1,0 +1,133 @@
+.main_contain {
+    width: min(100%, 1440px);
+    margin: auto;
+    background: #443322;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    background-color: #FA793C;
+    padding: 6px 82px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.fa-bars {
+    font-size: 24px;
+    color: #ffffff;
+    display: none;
+}
+
+.header_a {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.header_a span {
+    font-family: "Pridi", serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27.9px;
+    color: #ffffff;
+}
+
+
+.h_section {
+    display: flex;
+    gap: 40px;
+}
+
+.menu_ul {
+    display: flex;
+    gap: 32px;
+}
+
+.menu_li {
+    font-family: "ABeeZee", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+
+    color: #ffffff;
+}
+
+.fa-circle-user {
+    color: #ffffff;
+    font-size: 24px;
+}
+
+
+/* SECTION 1 */
+
+.section1 {
+    width: 100%;
+    height: 550px;
+    background: url("../images/cover.png");
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 82px;
+}
+
+
+/* ეს დივი არაა საჭირო მაგრამ სხვანაირად ჰ2 და პ გვერდიგვერდაა :( */
+.s_div {
+    text-align: center;
+}
+
+.section1 h2 {
+
+    font-family: "Kanit", serif;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 75px;
+    color: #ffffff;
+   
+
+}
+
+.section1 p {
+    font-family: "Kanit", serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #D9D9D9;
+ 
+
+}
+
+
+/* section 2 */
+.section2 {
+    background-color: #FA793C;
+    padding: 72px 82px;
+ 
+}
+
+.section2 h3 {
+    font-family: "Kanit", serif;
+font-size: 30px;
+font-weight: 500;
+line-height: 45px;
+text-align: center;
+color: #ffffff;
+
+}
+
+
+.s_section2 {
+    display: flex;
+}
+
+.s_section2 article {
+    background-color: black;
+    flex-basis: 1 1 32.2%;
+}

@@ -1,0 +1,25 @@
+/* 1300px */
+@media (max-width:1301px) {
+
+    header {
+        padding: 6px 57px;
+    }
+
+
+}
+
+
+/* 834px */
+@media (max-width:835px) {
+
+    header {
+        padding: 6px 46px;
+    }
+
+    .section1 {
+        height: 438px;
+    }
+
+    ;
+
+}
