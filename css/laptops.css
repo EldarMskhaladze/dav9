@@ -5,7 +5,10 @@
         padding: 6px 57px;
     }
 
-
+    .section2 {
+        padding: 48px 57px;
+     
+    }
 }
 
 
@@ -20,6 +23,13 @@
         height: 438px;
     }
 
-    ;
+    .section2 {
+        padding: 40px 46px;
+     
+    }
 
+
+    .hid834 {
+        display: none;
+    }
 }

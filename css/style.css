@@ -119,15 +119,46 @@ font-weight: 500;
 line-height: 45px;
 text-align: center;
 color: #ffffff;
+padding-bottom: 34px;
 
 }
 
 
 .s_section2 {
     display: flex;
+    align-items: stretch;
+    gap: 20px;
+
 }
 
 .s_section2 article {
     background-color: black;
-    flex-basis: 1 1 32.2%;
+    
+}
+
+.s_section2 article img {
+    width: 100%;
+}
+
+.Art_div {
+    padding: 16px;
+}
+
+.Art_div h4 {
+    font-family: "Kanit", serif;
+font-size: 24px;
+font-weight: 500;
+line-height: 32px;
+color: #ffffff;
+}
+
+
+.Art_div p {
+    font-family: "Kanit", serif;
+
+font-size: 16px;
+font-weight: 300;
+line-height: 24px;
+
+color: #d9d9d9;
 }
